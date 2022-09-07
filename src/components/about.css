@@ -1,0 +1,21 @@
+.icons {
+  margin-left: 400px;
+  margin-top: 50px;
+}
+.icon2 {
+  margin-left: 125px;
+  font-size: xx-large;
+}
+.icon3 {
+  margin-left: 125px;
+  font-size: xx-large;
+}
+.icon1 {
+  font-size: xx-large;
+}
+a {
+  color: black;
+}
+a:hover {
+  /* border: none; */
+}

@@ -1,0 +1,32 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-links {
+  display: flex;
+  list-style: none;
+}
+
+li {
+  margin-left: 10px;
+  padding: 20px;
+
+  list-style: none;
+  font-size: large;
+}
+
+a:hover {
+  color: rgb(161, 152, 132);
+}
+.header-image {
+  margin: 10px;
+}
+a {
+  color: rgb(142, 133, 133);
+  text-decoration: none;
+}
+/* li:hover {
+  color: rgb(42, 41, 39);
+  border-bottom: 2px solid white;
+} */
