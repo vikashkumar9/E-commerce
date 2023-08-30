@@ -1,6 +1,13 @@
 .header {
   display: flex;
   justify-content: space-between;
+  border: 2px solid rgb(231, 228, 228);
+  background-color: #f8fcfc;
+  position: relative;
+  width: 100%;
+  text-transform: uppercase;
+
+  margin-top: 0px;
 }
 
 .header-links {
@@ -17,16 +24,13 @@ li {
 }
 
 a:hover {
-  color: rgb(161, 152, 132);
+  color: rgb(210, 209, 205);
+  border-bottom: 2px solid rgb(161, 152, 132);
 }
 .header-image {
   margin: 10px;
 }
 a {
-  color: rgb(142, 133, 133);
+  color: rgb(255, 253, 253);
   text-decoration: none;
 }
-/* li:hover {
-  color: rgb(42, 41, 39);
-  border-bottom: 2px solid white;
-} */

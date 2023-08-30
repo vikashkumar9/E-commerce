@@ -1,0 +1,12 @@
+.feature-container {
+  background-color: rgb(240, 239, 239);
+}
+.grid-three-column {
+  display: flex;
+  justify-content: space-around;
+}
+.intro-data,
+.common-heading {
+  text-align: center;
+  font-size: large;
+}

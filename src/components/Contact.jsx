@@ -55,7 +55,7 @@ const Contact = () => {
             cols="30"
           ></textarea>
           <br></br>
-          <input type="submit" value="send"></input>
+          <input type="submit" value="send" className="btn"></input>
         </form>
       </div>
     </>

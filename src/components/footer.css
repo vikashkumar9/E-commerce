@@ -1,10 +1,58 @@
 .footer {
-  background-color: antiquewhite;
+  background-color: #232f3e;
+  min-width: 1000px;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  z-index: 1;
+  padding-top: 50px;
+}
+a {
+  color: #999;
+}
+.information {
+  margin: 0 10px 0 10px;
+}
+.links ul li {
+  margin: 0 0 10px;
+  list-style: none;
+  padding: 0px;
+}
+.links {
+  color: #999;
+}
 
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
+.icon2 {
+  margin-left: 0px;
+}
+.icon3 {
+  margin-left: 0px;
+}
+.contact-links {
+  display: flex;
+  justify-content: space-around;
+}
+.contact-short {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0px 20px;
+  background-color: rgb(240, 239, 239);
+  align-items: center;
 
-  text-align: center;
+  /* border: 1px solid black; */
+  border-radius: 20px;
+  margin: -50px 400px 0px 400px;
+  position: absolute;
+  z-index: 2;
+  width: 50%;
+}
+button {
+  background-color: blue;
+
+  height: 40px;
+  width: 100px;
+}
+a {
+  /* color: antiquewhite; */
 }

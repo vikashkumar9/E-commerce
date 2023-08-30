@@ -1,5 +1,6 @@
 import React from "react";
 import "./information.css";
+import { Link } from "react-router-dom";
 
 export const Information = () => {
   return (
@@ -10,13 +11,19 @@ export const Information = () => {
           <h1>VIKASH</h1>
           <h1>TECHNICAL</h1>
           <p className="para">I,m Vikash. A Front-End Web Developer</p>
+          <button className="info_btn">
+            <Link to="/product">SHOP NOW</Link>
+          </button>
         </div>
         <div className="picture">
+          <div className="emp_box"></div>
+
           <img
-            src="vikash.jpg"
-            height="200px"
-            width="200px"
+            src="hero.jpg"
             className="image"
+            alt="heroimg"
+            height="300px"
+            width="400px"
           ></img>
         </div>
       </div>

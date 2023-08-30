@@ -2,8 +2,10 @@ import React from "react";
 import "./about.css";
 import Information from "./Information";
 import { FaInstagram, FaLinkedin, FaFacebook } from "react-icons/fa";
+// import { useGlobalContext } from "../context/ProductContext";
 
-export const About = () => {
+const About = () => {
+  // const { myname } = useGlobalContext(); // Call the hook to get the context value
   return (
     <>
       <div>
@@ -23,4 +25,5 @@ export const About = () => {
     </>
   );
 };
+
 export default About;

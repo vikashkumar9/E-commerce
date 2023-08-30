@@ -1,0 +1,27 @@
+.card {
+  height: auto;
+  margin: 20px 0px;
+  background-color: white;
+}
+.feature-img {
+  margin-top: 10px;
+}
+.caption {
+  background-color: black;
+  color: white;
+  width: 50%;
+
+  text-align: center;
+  border-radius: 50px;
+}
+.card-data-flex {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 10px 0 10px;
+}
+.card-data--price {
+  color: blue;
+}
+.feature-img:hover {
+  transform: scale(1.1);
+}

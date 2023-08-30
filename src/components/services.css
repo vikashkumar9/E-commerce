@@ -1,0 +1,35 @@
+.services {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 200px 200px 200px;
+  gap: 30px;
+
+  padding: 10px;
+}
+.services > div {
+  text-align: center;
+  padding: 20px 0;
+  border-radius: 10px;
+}
+.br-color,
+.services-col-2 {
+  background-color: rgb(240, 239, 239);
+  border-radius: 10px;
+}
+
+.service1,
+.services3 {
+  height: 130px;
+  margin: 30px 0;
+}
+.services-icons {
+  background-color: white;
+
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  margin-left: 80px;
+}

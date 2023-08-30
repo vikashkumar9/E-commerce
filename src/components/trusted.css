@@ -1,0 +1,23 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+.containers {
+  background-color: rgb(240, 239, 239);
+  padding: 10px 0px;
+  margin-bottom: 100px;
+}
+.brand-section-section {
+  margin-top: 3.2rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+
+h4 {
+  text-align: center;
+  text-transform: capitalize;
+
+  font-weight: bold;
+}

@@ -1,5 +1,6 @@
 .contact {
-  color: aqua;
+  color: rgb(38, 39, 39);
+  text-shadow: 2px 2px 2px;
   text-align: center;
 }
 input[type="text"],
@@ -21,4 +22,8 @@ textarea[type="text"] {
   display: inline-block;
   border: 1px solid #ccc;
   box-sizing: border-box;
+}
+.btn:hover {
+  color: white;
+  background-color: black;
 }
