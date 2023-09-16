@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./error.css";
+import { Button } from "../button/Button";
+
 export const Error = () => {
   return (
     <>
@@ -11,9 +13,9 @@ export const Error = () => {
           The page you are looking for does not exist. How you got here is a
           mistery But you can click on the button for go homepage.
         </p>
-        <button>
+        <Button>
           <Link to="/">Go back</Link>
-        </button>
+        </Button>
       </div>
     </>
   );

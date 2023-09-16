@@ -21,7 +21,9 @@ const Product = (curElem) => {
       <div className="card-data">
         <div className="card-data-flex">
           <h3>{name}</h3>
+
           <p className="card-data--price">
+            <del></del>
             {Intl.NumberFormat("en-IN", {
               style: "currency",
               currency: "INR",

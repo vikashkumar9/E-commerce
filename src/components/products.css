@@ -2,3 +2,43 @@ body {
   margin: 0px;
   padding: 0px;
 }
+.products-container {
+  display: flex;
+  margin-bottom: 100px;
+  justify-content: space-between;
+}
+.grid {
+  display: grid;
+  gap: 50px 100px;
+  grid-template-columns: auto auto auto;
+  background-color: rgb(240, 239, 239);
+  padding: 10px;
+}
+.products-sidebar {
+  height: 100%;
+  width: 20%;
+  margin-left: 200px;
+}
+.filteration {
+  display: flex;
+  margin: 10px 20px;
+  justify-content: space-between;
+}
+.search-items {
+  margin-right: 20px;
+  border-radius: 20px;
+}
+.filter-button {
+  display: block;
+  text-align: left;
+  background-color: white;
+  border: none;
+  /* font-size: 1.2rem; */
+  text-transform: uppercase;
+}
+.filter-button:hover {
+  font-size: 1.3rem;
+}
+.clearfilter {
+  color: red;
+}

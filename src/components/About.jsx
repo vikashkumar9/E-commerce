@@ -9,7 +9,7 @@ const About = () => {
   return (
     <>
       <div>
-        <Information />
+        <Information about="I,m Vikash. A Front-End Web Developer" />
       </div>
       <div className="icons">
         <a href="https://www.instagram.com/parjapati2924/">

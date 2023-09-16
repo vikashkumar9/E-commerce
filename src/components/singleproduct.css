@@ -1,0 +1,28 @@
+.single-Page {
+  margin: 40px 200px 100px 200px;
+  display: flex;
+}
+.sin-image {
+  margin-right: 100px;
+  display: flex;
+  align-items: center;
+}
+.single-page-services {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.service-icons {
+  background-color: rgb(240, 239, 239);
+  border-radius: 50%;
+  padding: 10px;
+}
+.brand {
+  border-top: 1px solid black;
+}
+.product-data-warranty {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}

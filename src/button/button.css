@@ -1,0 +1,9 @@
+.common-btn {
+  height: 1.5rem;
+  padding: 5px;
+
+  color: black;
+  background-color: blue;
+
+  text-align: center;
+}

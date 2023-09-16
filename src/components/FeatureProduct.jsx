@@ -3,8 +3,7 @@ import { useProductContext } from "../context/ProductContext";
 import Product from "./Product";
 import "./featureproduct.css";
 export const FeatureProduct = () => {
-  const { featureProducts, isLoading, products } = useProductContext();
-  console.log(products);
+  const { featureProducts, isLoading } = useProductContext();
 
   if (isLoading) {
     return <div> ......Loading </div>;

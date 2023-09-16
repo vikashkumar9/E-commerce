@@ -2,6 +2,7 @@ import React from "react";
 import "./footer.css";
 import { Link } from "react-router-dom";
 import { FaInstagram, FaLinkedin, FaFacebook } from "react-icons/fa";
+import { Button } from "../button/Button";
 
 export const Footer = () => {
   return (
@@ -12,9 +13,9 @@ export const Footer = () => {
           <h3>Talk to us today</h3>
         </div>
         <div>
-          <button>
+          <Button>
             <Link to="/contact">Get Started </Link>
-          </button>
+          </Button>
         </div>
       </div>
       <div className="footer">

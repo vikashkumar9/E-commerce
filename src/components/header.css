@@ -29,8 +29,34 @@ a:hover {
 }
 .header-image {
   margin: 10px;
+  height: 80px;
+  width: 80px;
 }
 a {
   color: rgb(255, 253, 253);
   text-decoration: none;
+}
+.cart-Items {
+  width: auto;
+  border: 1px solid black;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  text-align: center;
+  font-size: medium;
+  margin-left: -10px;
+  margin-top: -10px;
+  background-color: rgb(135, 160, 235);
+}
+.cart-portion {
+  display: flex;
+}
+.total_Cart_amount {
+  background-color: rgb(240, 239, 239);
+  width: 20%;
+  padding: 10px;
+}
+.user_Name {
+  margin-top: -23.94px;
+  text-shadow: 2px 2px 20px;
 }

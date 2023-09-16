@@ -2,6 +2,8 @@
   height: auto;
   margin: 20px 0px;
   background-color: white;
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px;
 }
 .feature-img {
   margin-top: 10px;
@@ -22,6 +24,6 @@
 .card-data--price {
   color: blue;
 }
-.feature-img:hover {
-  transform: scale(1.1);
+.card:hover {
+  border-radius: 0px;
 }
