@@ -4,6 +4,7 @@
 .grid-three-column {
   display: flex;
   justify-content: space-around;
+  padding: 10px 200px;
 }
 .intro-data,
 .common-heading {

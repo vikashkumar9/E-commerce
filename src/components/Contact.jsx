@@ -4,7 +4,7 @@ import "./contact.css";
 const Contact = () => {
   return (
     <>
-      <h1 className="contact"> CONATCT US </h1>
+      <h1 className="contact"> CONTACT US </h1>
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.0058473989443!2d76.72164916489415!3d28.659543582407167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d7151beb93713%3A0xd65201a4db9a9d19!2sKheri%20Asra%2C%20Haryana%20124104!5e0!3m2!1sen!2sin!4v1661446400789!5m2!1sen!2sin"
         width="100%"

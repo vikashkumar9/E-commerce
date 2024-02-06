@@ -10,9 +10,9 @@ export const FeatureProduct = () => {
   }
   return (
     <div className="feature-container">
-      <div className="intro-data">Check Now!</div>
-      <div className="common-heading">Our Feature Services</div>
-      <div className="grid grid-three-column">
+      <h2 className="intro-data">Check Now!</h2>
+      <h2 className="common-heading">Our Feature Services</h2>
+      <div className="grid-three-column">
         {featureProducts.map((curElem) => {
           return <Product key={curElem.id} {...curElem} />;
         })}

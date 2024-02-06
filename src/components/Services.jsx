@@ -33,7 +33,7 @@ export const Services = () => {
           <div className="services-icons">
             <RiSecurePaymentLine />
           </div>
-          <h4>Super Secure Payment Syatem </h4>
+          <h4>Super Secure Payment System </h4>
         </div>
       </div>
     </>

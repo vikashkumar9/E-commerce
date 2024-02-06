@@ -33,12 +33,17 @@ body {
   text-align: left;
   background-color: white;
   border: none;
-  /* font-size: 1.2rem; */
+  cursor: pointer;
   text-transform: uppercase;
+  padding-top: 10px;
+  font-weight: bold;
 }
 .filter-button:hover {
-  font-size: 1.3rem;
+  color: rgb(86, 87, 87);
 }
 .clearfilter {
   color: red;
+}
+.select-items {
+  cursor: pointer;
 }

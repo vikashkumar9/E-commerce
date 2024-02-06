@@ -1,15 +1,14 @@
 .footer {
   background-color: #232f3e;
-  min-width: 1000px;
+  /* min-width: 1000px; */
+  width: 100%;
   position: relative;
   display: flex;
   justify-content: space-around;
   z-index: 1;
   padding-top: 50px;
 }
-a {
-  color: #999;
-}
+
 .information {
   margin: 0 10px 0 10px;
 }
@@ -32,6 +31,9 @@ a {
   display: flex;
   justify-content: space-around;
 }
+.contacts {
+  text-align: center;
+}
 .contact-short {
   display: flex;
   flex-direction: row;
@@ -47,12 +49,4 @@ a {
   z-index: 2;
   width: 50%;
 }
-button {
-  background-color: blue;
-
-  height: 40px;
-  width: 100px;
-}
-a {
-  /* color: antiquewhite; */
-}
+/*  */

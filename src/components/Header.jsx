@@ -18,22 +18,22 @@ export const Header = () => {
       </div>
 
       <ul className="header-links">
-        <li>
+        <li className="header_items">
           <Link to="/">Home</Link>
         </li>
-        <li>
+        <li className="header_items">
           <Link to="/about">About</Link>
         </li>
-        <li>
+        <li className="header_items">
           <Link to="/products">Products</Link>
         </li>
-        <li>
+        <li className="header_items">
           <Link to="/contact">Contact</Link>
         </li>
         <li className="user_Name">
           {isAuthenticated && <h4> {user.name}</h4>}
         </li>
-        <li>
+        <li className="header_items login_btn">
           {isAuthenticated ? (
             <button
               onClick={() =>
@@ -46,7 +46,7 @@ export const Header = () => {
             <button onClick={() => loginWithRedirect()}>Log In</button>
           )}
         </li>
-        <li>
+        <li className="header_items">
           <div className="cart-portion">
             <Link to="/cart">
               <div>
