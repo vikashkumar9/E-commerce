@@ -1,0 +1,18 @@
+@keyframes changeshape {
+  from {
+    border-radius: 0%;
+  }
+  to {
+    border-radius: 100%;
+  }
+}
+#div {
+  height: 100px;
+  width: 100px;
+  top: 40%;
+  left: 40%;
+
+  position: absolute;
+  background-color: blue;
+  animation: changeshape 1s ease-in-out 4 alternate;
+}

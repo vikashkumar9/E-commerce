@@ -1,0 +1,20 @@
+#div {
+  height: 200px;
+  width: 200px;
+  top: 20%;
+  left: 20%;
+  background-color: aqua;
+  transform: rotate(120deg);
+  transform: scale(1.2, 0.4);
+  transform: translate(100px, 100px);
+  transition: height 1s ease-in-out 0.5s;
+  transition: 1s ease-in-out0.5s;
+  transition: 1s step(6, end);
+}
+#div:hover {
+  height: 400px;
+  width: 400px;
+}
+#div:hover {
+  transform: scale(1.5) translate(120px);
+}
